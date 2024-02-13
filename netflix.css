@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    margin: 0 11rem;
+}
+
+.container1 {
+    background-image: url(netflix/header-image.png);
+    height: 95vh;
+    box-shadow: inset 0 0 1000px 100px black;
+    /* background: linear-gradient(to bottom, #4c4c4c 0%, #000000 0%, #595959 12%, #666666 17%, #666666 17%, #4c4c4c 24%, #474747 39%, #111111 95%, #111111 95%); */
+}
+
+.sign-in {
+    background-color: #E50914;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.sign-in:hover {
+    background-color: #C11119;
+}
+
+.drop-down {
+    background: transparent;
+    color: white;
+    margin-right: 1.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #5E5F60;
+    outline: none;
+    font-weight: 500;
+}
+
+.drop-down i {
+    padding: 0.5rem 0.75rem;
+    margin-right: 0.25rem;
+
+}
+
+.nav img {
+    width: 9.2rem;
+}
+
+.content {
+    /* padding: 9rem; */
+    margin-top: 10rem;
+}
+
+.content p {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin-bottom: 2rem; */
+}
+
+.content .first {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.content .second {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.content .third{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin-bottom: 2rem;
+}
+.get-started{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    /* margin-bottom: ;  */
+}
+.get-started input{
+    background: #1B2124;
+    padding-left: 1rem;
+    padding-bottom: 0.9rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    color: white;
+    border-radius: 0.25rem;
+    width: 22%;
+}
+.get-started button {
+    background-color: #E50914;
+    color: white;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    padding: 1rem 1.5rem;
+}
+.get-started button:hover {
+    background-color: #C11119;
+}
+.container2{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    padding: 3rem 0;
+    align-items: center;
+    justify-content: center;
+}
+.enjoy{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.enjoy1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    width: fit-content;
+}
+.content2{
+    margin-left: 10rem;
+}
+.container3{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    padding: 6rem 0;
+    align-items: center;
+    justify-content: center;
+}
+.enjoy3{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.enjoy31{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    width: fit-content;
+}
+.content3{
+    margin-right: 10rem;
+}
+.tv-img{
+    margin-right: 10rem;
+}
+.mobile-img{
+    margin-left: 10rem;
+}
+.tv-img img{
+    width: 100%;
+    
+}
+.mobile-img img{
+    width: 100%;
+}
+.line1{
+    content: '';
+    height: 0.5rem;
+    width: 100vw;
+    background-color: #232323;
+}
+footer{
+    background-color: #000000;
+}
+.ft > p{
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+}
+.block{
+    background-color: #2D2D2D;
+    margin:0 11rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    /* display: flex; */
+    color: #fff;
+}
+.block p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+}
+.lastft{
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-stretch: narrower;
+    font-weight: 500;
+    line-height: 3.5rem;
+    text-align: center;
+}
+.last-m{
+    margin-bottom: 4rem;
+}
